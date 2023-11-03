@@ -1,0 +1,112 @@
+
+*{
+    margin: 0;
+    padding: 0;
+   
+    box-sizing: border-box; 
+    
+}
+
+header {
+    position: sticky;
+    top: 0;
+    background: rgb(209, 212, 127);
+    height: 66px;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+.navbar{
+    display: flex;
+}
+
+.search {
+    width: 35vw;
+    padding: 7px 27px;
+    border: 0.5px solid grey;
+    background: #f7f8fd;
+    border-radius: 5px;
+    margin: 23px 30px;
+    height: 5px;
+   
+}
+.right ul{
+    display: flex;
+    padding-left: 170px;
+    
+}
+
+.right ul li {
+    color: rgb(229, 117, 229);
+    font-weight: 1000;
+    list-style: none;
+    padding: 20px 35px;
+    cursor: pointer;
+   
+}
+.item:hover{
+    text-decoration: underline;
+    color: darkmagenta;
+}
+.left{
+    display: flex;
+    margin-left: 20px;
+    padding:3px 28px;
+}
+.left h1{
+    height: 30px;
+    width: 100px;
+    font-size: 45px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: purple;
+}
+.subheader{
+    display: flex;
+    
+}
+.box img{
+    height: 50px;
+    
+}
+.box{
+    padding: 5px 28px;
+    margin: auto;
+    cursor:pointer;
+
+}
+.padl{
+    padding-left: 18px;
+}
+.box:hover{
+    color: purple ;
+    font-weight: 1000;
+}
+.offer img{
+    width:100%
+}
+/* ProductList.css */
+.product {
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin: 10px;
+    width: 300px;
+    display: inline-block;
+    text-align: center;
+  }
+  
+  .product img {
+    max-width: 100%;
+  }
+  
+  .product h3 {
+    font-size: 18px;
+    margin: 10px 0;
+  }
+  
+  .product p {
+    font-size: 14px;
+  }
+  .main h1{
+    padding: 10px 35px;
+    margin: auto;
+    color: purple;
+  }
+  
